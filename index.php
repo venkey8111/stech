@@ -153,7 +153,7 @@
                                             <img src="assets/images/who/arrow.png" alt="Arrow" class="img-responsive">
                                         </div>
                                         <a href="#">
-                                            <img src="assets/images/who/img2.png" class="img-responsive">
+                                            <img src="assets/images/who/img1.png" class="img-responsive">
                                         </a>
                                     </div>
                                 </div>

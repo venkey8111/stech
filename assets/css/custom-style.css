@@ -12,7 +12,7 @@ body {
 
 h1 {
     font-family: sans-serif;
-    font-size: 64px;
+    font-size: 54px;
 }
 
 header {
@@ -23,19 +23,22 @@ header {
 
 /* Hamburger */
 
+.carousel-control.right {
+    background-image: unset;
+}
+
 .hamburger {
     position: absolute;
-    top: 15%;
+    top: 7%;
     right: 14%;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     cursor: pointer;
     z-index: 1000;
     padding-top: 20px;
     padding-left: 6px;
     background: #24ba9d;
     border-radius: 50%;
-    border: 2px solid #fff;
 }
 
 .hamburger span {
@@ -45,9 +48,10 @@ header {
 .hamburger .bars {
     display: block;
     position: absolute;
-    width: 25px;
-    height: 3px;
-    left: 12px;
+    width: 20px;
+    height: 2px;
+    left: 21px;
+    top: 30px;
     background-color: #fff;
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
@@ -68,7 +72,7 @@ header {
     position: absolute;
     content: " ";
     width: 100%;
-    height: 3px;
+    height: 2px;
     margin-left: -2px;
     background-color: #fff;
     -webkit-transition: all 0.2s ease;
@@ -168,7 +172,8 @@ nav.navigation .logo {
 }
 
 .logo img {
-    width: 100%;
+    width: 50%;
+    min-width: 50%;
     min-width: 100px;
 }
 
@@ -422,7 +427,7 @@ span.glyphicon.glyphicon-chevron-left {
 }
 
 .carousel-control {
-    right: 0 !important;
+    right: 0;
     left: unset;
 }
 
@@ -430,7 +435,7 @@ span.glyphicon.glyphicon-chevron-left {
     background-image: unset;
 }
 
-.carousel-indicators li {
+#myCarousel .carousel-indicators li {
     display: inline-block;
     width: 50px;
     height: 5px;
@@ -442,7 +447,7 @@ span.glyphicon.glyphicon-chevron-left {
     border-radius: 0px;
 }
 
-.carousel-indicators .active {
+#myCarousel .carousel-indicators .active {
     width: 50px;
     height: 5px;
     margin: 1px;
@@ -451,8 +456,9 @@ span.glyphicon.glyphicon-chevron-left {
     border: 1px solid #26b99c;
 }
 
-.carousel-indicators {
-    left: 30%;
+#myCarousel .carousel-indicators {
+    left: 20%;
+    bottom: 30%;
 }
 
 .glyphicon-chevron-left:before, .glyphicon-chevron-right:before {
@@ -469,8 +475,16 @@ span.glyphicon.glyphicon-chevron-left {
 
 /* Who we are */
 
-section#who_we_are {
-    padding: 50px;
+.container-fuild.container-who {
+    background-image: url('../images/who/who-bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.sliderDiv {
+    margin: 0px;
+    padding: 0px;
 }
 
 .leftDiv a {
@@ -494,4 +508,227 @@ section#who_we_are {
     margin: auto;
 }
 
+/* Slider */
+
+.whoWeAreSlider a.left.carousel-control {
+    left: 0;
+}
+
+.whoWeAreSlider {
+    padding: 50px 20px 0px 0px;
+}
+
+.whoWeAreSlider.carousel-inner.active.left {
+    left: -25%;
+}
+
+.whoWeAreSlider.carousel-inner.next {
+    left: 25%;
+}
+
+.whoWeAreSlider.carousel-inner.prev {
+    left: -25%;
+}
+
+.whoWeAreSlider.carousel-control {
+    width: 4%;
+}
+
+.carousel-control.whoWeAreSlider.carousel-control {
+    left: 0px;
+}
+
+.whoWeAreSlider.carousel-control.left, .whoWeAreSlider.carousel-control.right {
+    margin-left: 15px;
+    background-image: none;
+}
+
+.whoWeAreSlider ol.carousel-indicators {
+    position: absolute;
+    display: inline-block;
+    right: 0px;
+    bottom: -43px;
+    width: 150px;
+}
+
+.carousel-indicators {
+    left: auto;
+    right: 0;
+}
+
+#whoWeAreCarousel .carousel-control.right {
+    background-image: unset;
+}
+
+#whoWeAreCarousel .carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    background: lightgray;
+}
+
+#whoWeAreCarousel .carousel-indicators .active {
+    width: 15px;
+    height: 15px;
+    background-color: #2bb79c;
+}
+
+.whoWeAreSlider .item img {
+    height: auto;
+    min-height: auto;
+}
+
+.sliderContent {
+    position: absolute;
+    padding: 20px 20px;
+}
+
+.sliderContent h3, .sliderContent p {
+    color: #fff;
+}
+
+#headerSection a.left.carousel-control img {
+    position: absolute;
+    bottom: 50%;
+    top: 35%;
+    right: 30%;
+}
+
+#headerSection a.right.carousel-control img {
+    position: absolute;
+    bottom: 50%;
+    transform: rotate(180deg);
+    right: 30%;
+}
+
+/* .whoWeAreSlider .left, .whoWeAreSlider .right {
+    display: none;
+} */
+
 /* Who we are ends */
+
+/* Our partners */
+
+.OurPartnersHeading h1 {
+    text-align: center;
+}
+
+div#OurPartners, section#testimonials {
+    overflow-x: hidden;
+    padding: 80px 0px 50px 0px;
+}
+
+/* Testimonials */
+
+section#testimonials .TestimonialsHeading h1 {
+    text-align: center;
+    color: #fff;
+}
+
+
+
+section#testimonials {
+    background: #26b99c;
+}
+
+.testimonialsSlider .inner img {
+    width: 40%;
+    margin: auto;
+}
+
+.testimonialsSlider .inner .name {
+    text-align: center;
+    color: #fff;
+}
+
+.testimonialsSlider .inner .desc {
+    text-align: center;
+    color: #fff;
+}
+
+.testimonialsSlider .inner .mainContent {
+    color: #fff;
+}
+
+section.testimonialsSlider {
+    border: 1px solid #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Last Section */
+
+section#stechLast {
+    background: #243e63;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+section#stechLast .Logo img {
+    margin: auto;
+}
+
+section#stechLast .link ul li {
+    list-style-type: none;
+    font-size: 15px;
+    padding-bottom: 7px;
+}
+
+section#stechLast .link ul li a {
+    color: #fff;
+}
+
+section#stechLast .linkSocial ul li {
+    display: inline-block;
+    padding: 5px;
+}
+
+#testimonials .slick-prev:before, #testimonials .slick-next:before {
+    color: #fff;
+}
+
+section#footer {
+    background: #000;
+}
+
+section#footer ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+/* Footer Styles */
+
+section#footer {
+    overflow-x: hidden;
+    padding: 20px;
+}
+
+.copyright p {
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    padding-top: 15px;
+}
+
+section#footer ul li a {
+    font-size: 12px;
+    color: #fff;
+}
+
+section#footer ul {
+    padding-top: 10px;
+}
+
+footer i.fa.fa-arrow-up {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #26b99c;
+    padding: 14px;
+    border-radius: 50px;
+    color: white;
+    font-size: 17px;
+    border: 1px solid #fff;
+}
+
+/* Footer Styles Ends */

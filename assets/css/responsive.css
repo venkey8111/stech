@@ -23,6 +23,7 @@
     }
     #headerSection a.right.carousel-control img, #headerSection a.left.carousel-control img {
         width: 50%;
+        display: none;
     }
     #headerSection a.right.carousel-control img {
         bottom: 70%;

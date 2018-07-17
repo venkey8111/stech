@@ -337,7 +337,7 @@
           <div class="row">
                 <div class="col-md-5 col-xs-12">
                     <div class="Logo">
-                        <img src="assets/images/banner/logo.png" alt="stech" class="img-responsive">
+                        <a href="index.php"><img src="assets/images/banner/logo.png" alt="Stech Logo" class="img-responsive"></a>
                     </div>
                 </div>
                 <div class="col-md-7 col-xs-12 links_social">

@@ -1,7 +1,7 @@
  <header class="header-main">
                     <nav class="navigation">
                         <div class="logo">
-                            <img src="assets/images/banner/logo.png" alt="Stech Logo" class="img-responsive">
+                            <a href="index.php"><img src="assets/images/banner/logo.png" alt="Stech Logo" class="img-responsive"></a>
                         </div>
                         <div class="hamburger">
                             <span class="bars"></span>

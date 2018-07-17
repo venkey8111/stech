@@ -624,14 +624,14 @@ span.glyphicon.glyphicon-chevron-left {
     position: absolute;
     bottom: 50%;
     top: 35%;
-    right: 30%;
+    right: 193px;
 }
 
 #headerSection a.right.carousel-control img {
     position: absolute;
     bottom: 50%;
     transform: rotate(180deg);
-    right: 30%;
+    right: 193px;
 }
 
 /* .whoWeAreSlider .left, .whoWeAreSlider .right {

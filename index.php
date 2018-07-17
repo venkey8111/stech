@@ -18,40 +18,9 @@
     <section id="headerSection">
         <div class="container-fuild">
             <div class="header">
-                <header class="header-main">
-                    <nav class="navigation">
-                        <div class="logo">
-                            <img src="assets/images/banner/logo.png" alt="Stech Logo" class="img-responsive">
-                        </div>
-                        <div class="hamburger">
-                            <span class="bars"></span>
-                        </div>
-                        <div class="menu">
-                            <ul>
-                                <li>
-                                    <a href="">Home</a>
-                                </li>
-                                <li class="sub-menu">
-                                    <a href="">About</a>
-                                </li>
-                                <li>
-                                    <a href="">Home Automation</a>
-                                </li>
-                                <li>
-                                    <a href="">Commercial Automation</a>
-                                </li>
-                                <li>
-                                    <a href="">Blogs</a>
-                                </li>
-                                <li>
-                                    <a href="">Connect</a>
-                                </li>
-                            </ul>
-                
-                        </div>
-                    </nav>
-                
-                </header>
+                <?php
+                    include_once("header.php")
+                ?>
                 <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="4500">
                 
                     <ol class="carousel-indicators">
@@ -433,27 +402,9 @@
 
 <!-- Footer Section -->
 <section id="footer">
-    <footer>
-        <div class="container-fuild">
-            <div class="row">
-                <div class="col-md-7">
-                    <div class="copyright">
-                        <p>&copy Copyright Stech 2018. All Rights Reserved</p>
-                    </div>
-                </div>
-                <div class="col-md-5">
-                    <ul>
-                        <li><a href="#">News</a></li>
-                        <li><a href="#">Supports</a></li>
-                        <li><a href="#">Terms & Conditions</a></li>
-                    </ul>
-                </div>
-            </div>
-            <a href="javascript:" id="return-to-top" style="">
-                <i class="fa fa-arrow-up"></i>
-            </a>
-        </div>
-    </footer>
+   <?php 
+    include_once("footer.php");
+   ?>
 </section>
 <!-- Footer Section -->
 

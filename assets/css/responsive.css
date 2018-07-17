@@ -19,7 +19,7 @@
         bottom: 10%;
     }
     nav.navigation .logo {
-        left: 2%;
+        left: 5%;
     }
     #headerSection a.right.carousel-control img, #headerSection a.left.carousel-control img {
         width: 50%;
@@ -74,11 +74,68 @@
     section.testimonialsSlider {
         width: 80%;
     }
-    .testimonialsSlider .inner .mainContent{text-align: center;}
+    .testimonialsSlider .inner .mainContent {
+        text-align: center;
+    }
+    #headerSection .carousel-caption .captionText h2 {
+        font-size: 7vw;
+    }
+    .logo img {
+        width: 30%;
+    }
+    #headerSection .carousel-caption {
+        top: 17px;
+        left: 90px;
+    }
+    #headerSection .carousel-caption img {
+        display: none;
+    }
 }
 
-@media screen and (max-width: 767px) and (min-width: 100px) {}
+@media screen and (max-width: 767px) and (min-width: 100px) {
+    #headerSection .carousel-caption {
+        width: 100%;
+        left: 0;
+    }
+    #headerSection .carousel-caption .captionText {
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 40px;
+    }
+    #headerSection .carousel-caption .captionText h1, #headerSection .carousel-caption .captionText h2 {
+        font-size: 6vw;
+    }
+    #headerSection .carousel-caption .captionText a {
+        position: absolute;
+        color: #000;
+        bottom: unset;
+        left: unset;
+        right: 8px;
+        bottom: -45px;
+    }
+    #headerSection .carousel-caption .captionText a span {
+        background: #000;
+        color: #fff;
+    }
+}
 
-@media screen and (max-width: 992px) and (min-width: 100px) {}
+@media screen and (max-width: 568px) and (min-width: 320px) {
+    #headerSection .carousel-caption .captionText a {
+        bottom: -33px;
+    }
+}
+
+@media screen and (max-width: 640px) and (min-width: 360px) {
+    #headerSection .carousel-caption .captionText a {
+        bottom: -40px;
+    }
+}
+
+@media screen and (max-width: 823px) and (min-width: 411px) {
+    #headerSection .carousel-caption .captionText a {
+        bottom: unset;
+    }
+}
 
 @media screen and (max-width: 479px) and (min-width: 100px) {}

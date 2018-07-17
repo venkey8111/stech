@@ -23,6 +23,37 @@ header {
 
 /* Hamburger */
 
+#headerSection .carousel-caption {
+    bottom: 0;
+    top: 90px;
+}
+
+#headerSection .carousel-caption img {
+    width: 40%;
+}
+
+#headerSection .carousel-caption .captionText {
+    position: absolute;
+    top: 100px;
+    left: 75px;
+}
+
+#headerSection .carousel-caption .captionText h2 {
+    font-size: 50px;
+    margin: 0;
+}
+
+#headerSection .carousel-caption .captionText a {
+    position: absolute;
+    left: 10px;
+    color: #fff;
+    bottom: -34px;
+}
+
+#headerSection .carousel-caption .captionText a span {
+    top: 20px;
+}
+
 .carousel-control.right {
     background-image: unset;
 }
@@ -173,14 +204,17 @@ nav.navigation .logo {
 
 .logo img {
     width: 50%;
-    min-width: 50%;
-    min-width: 100px;
+    min-width: 30%;
 }
 
 /* Slider Css */
 
 .carousel-caption {
     padding-bottom: 100px;
+}
+
+a#return-to-top:hover {
+    cursor: pointer;
 }
 
 .rw-words-1 span {
@@ -623,8 +657,6 @@ section#testimonials .TestimonialsHeading h1 {
     text-align: center;
     color: #fff;
 }
-
-
 
 section#testimonials {
     background: #26b99c;

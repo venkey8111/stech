@@ -87,15 +87,17 @@
         top: 17px;
         left: 90px;
     }
-    #headerSection .carousel-caption img {
-        display: none;
-    }
 }
 
 @media screen and (max-width: 767px) and (min-width: 100px) {
+    #headerSection .carousel-caption img {
+        display: none;
+    }
     #headerSection .carousel-caption {
-        width: 100%;
+        width: 80%;
         left: 0;
+        right: 0;
+        margin: auto;
     }
     #headerSection .carousel-caption .captionText {
         left: 0;
@@ -139,4 +141,3 @@
 }
 
 @media screen and (max-width: 479px) and (min-width: 100px) {}
-

@@ -25,7 +25,7 @@ $(document).on('ready', function () {
                     centerMode: true,
                     autoplay: true,
                     autoplaySpeed: 2000,
-                    slidesToShow: 1
+                    slidesToShow: 4
                 }
             },
             {

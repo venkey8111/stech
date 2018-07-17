@@ -23,8 +23,6 @@ header {
 
 /* Hamburger */
 
-
-
 #headerSection .carousel-caption {
     bottom: 0;
     top: 90px;
@@ -766,3 +764,27 @@ footer i.fa.fa-arrow-up {
 }
 
 /* Footer Styles Ends */
+
+/* Slick  */
+
+#testimonials .slick-dots li button:before {
+    font-size: 60px;
+}
+
+#testimonials .slick-dots li.slick-active button:before {
+    color: #fff;
+}
+
+#testimonials .slick-prev:before {
+    color: black;
+    content: url('../images/banner/banner-arrow.png');
+}
+
+#testimonials .slick-next:before {
+    color: black;
+    content: url('../images/banner/banner-arrow-right.png');
+}
+
+#testimonials .slick-prev {
+    left: -50px;
+}

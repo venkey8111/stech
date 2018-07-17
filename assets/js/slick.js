@@ -4,15 +4,16 @@ $(document).on('ready', function () {
         // infinite: true,
         // slidesToShow: 1,
         // slidesToScroll: 3
-        dots: true,
         infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: 1
+        dots: true,
+        arrows: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        fade: true,
+        fadeSpeed: 1000
        
     });
     $(".center").slick({
-        dots: true,
         infinite: true,
         centerMode: true,
         slidesToShow: 5,

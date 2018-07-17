@@ -55,7 +55,7 @@ $(document).on('ready', function () {
                     autoplay: true,
                     autoplaySpeed: 1000,
                     centerMode: true,
-                    slidesToShow: 1
+                    slidesToShow: 2
                 }
             }
         ]

@@ -6,9 +6,9 @@
     /* Styles */
     .hamburger {
         top: 5%;
-        right: 20%;
-        width: 40px;
-        height: 40px;
+    right: 5%;
+    width: 40px;
+    height: 40px;
     }
     .hamburger .bars {
         left: 12px;
@@ -42,17 +42,12 @@
         padding: 0;
         margin: 0;
     }
-    .sliderContent {
-        padding: 5px;
-    }
+
     .sliderContent h3 {
         font-size: 17px;
     }
     .sliderContent p {
         font-size: 15px;
-    }
-    .sliderContent img {
-        width: 25%;
     }
     #OurPartners .slider {
         width: 80%;
@@ -70,7 +65,7 @@
         padding-top: 50px;
     }
     div#OurPartners, section#testimonials {
-        padding: 30px 0px 30px 0px;
+        padding: 30px 17px 30px 17px;
     }
     section.testimonialsSlider {
         width: 80%;
@@ -91,6 +86,32 @@
 }
 
 @media screen and (max-width: 767px) and (min-width: 100px) {
+    footer i.fa.fa-arrow-up{
+        right: 5px;
+    }
+    a#return-to-top{
+        display: none !important;
+    }
+    .sliderContent {
+        padding: 5px;
+        width: 200px;
+    }
+    .sliderContent img {
+    width: 30px;
+}
+    .menu {
+    width: 150px;
+    height: 100%;
+    padding-left: 15px;
+}
+.menu ul {
+    margin: 0;
+    padding-left: 0;
+}
+.menu ul li {
+    list-style-type: none;
+    padding: 10px 0px 0 0px;
+}
     #headerSection .carousel-caption img {
         display: none;
     }
@@ -98,7 +119,7 @@
         font-size: 10vw;
     }
     nav.navigation.open .hamburger {
-        right: 180px;
+        right: 100px;
         top: 10px;
         position: fixed;
     }
@@ -106,10 +127,10 @@
         display: none;
     }
     #headerSection .carousel-caption {
-        width: 70%;
-        left: 60px;
-        right: 0;
-        margin: auto;
+           width: 100%;
+            left: 0;
+            right: 0;
+            margin: auto;
     }
     #headerSection .carousel-caption .captionText {
         left: 0;
@@ -138,6 +159,9 @@
     #headerSection .carousel-caption .captionText a {
         bottom: -33px;
     }
+    section#stechLast .linkSocial ul li {
+    padding: 3px;
+    }
 }
 
 @media screen and (max-width: 640px) and (min-width: 360px) {
@@ -152,4 +176,26 @@
     }
 }
 
-@media screen and (max-width: 479px) and (min-width: 100px) {}
+
+/*Ipad*/
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    #headerSection a.left.carousel-control img {
+    right: 119px;
+    }
+    #headerSection a.right.carousel-control img {
+    right: 119px;
+        bottom: 160px;
+    }
+    #headerSection .carousel-caption .captionText{
+            top: 85px;
+            left: 100px;
+    }
+    #headerSection .carousel-caption .captionText h1, #headerSection .carousel-caption .captionText h2{
+        font-size: 25px;
+    }
+    #myCarousel .carousel-indicators {
+    left: 24%;
+    bottom: 14%;
+}
+}
+

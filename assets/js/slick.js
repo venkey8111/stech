@@ -1,9 +1,5 @@
 $(document).on('ready', function () {
     $(".testimonialsSlider").slick({
-        // dots: true,
-        // infinite: true,
-        // slidesToShow: 1,
-        // slidesToScroll: 3
         infinite: true,
         dots: true,
         arrows: true,
@@ -13,12 +9,13 @@ $(document).on('ready', function () {
         fadeSpeed: 1000
        
     });
-    $(".center").slick({
+    $(".Testimonialsregular").slick({
+        dots: true,
         infinite: true,
-        centerMode: true,
-        slidesToShow: 5,
+        slidesToShow:3,
         slidesToScroll: 3,
-        responsive: [
+       responsive: [
+           
             {
                 breakpoint: 1198,
                 settings: {
@@ -46,6 +43,54 @@ $(document).on('ready', function () {
                     centerMode: true,
                     autoplay: true,
                     autoplaySpeed: 2000,
+                    slidesToShow: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: true,
+                    // autoplay: true,
+                    autoplaySpeed: 1000,
+                    centerMode: true,
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
+    $(".center").slick({
+        infinite: true,
+        centerMode: true,
+        slidesToShow: 5,
+        slidesToScroll: 3,
+        responsive: [
+            {
+                breakpoint: 1198,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                    slidesToShow: 4
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    autoplay: true,
+                    autoplaySpeed: 2000,
                     slidesToShow: 2
                 }
             },
@@ -56,7 +101,7 @@ $(document).on('ready', function () {
                     autoplay: true,
                     autoplaySpeed: 1000,
                     centerMode: true,
-                    slidesToShow: 2
+                    slidesToShow: 1
                 }
             }
         ]

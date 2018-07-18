@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Stech</title>
 
@@ -95,7 +95,7 @@
     <!-- /Header -->
 
     <section id="who_we_are">
-        <div class="container" style="padding: 40px;">
+        <div class="container" style="padding: 40px;padding-top: 60px;padding-bottom: 60px;">
             <div class="row">
                 <!-- Left Div -->
                 <div class="col-md-8">
@@ -121,15 +121,12 @@
             <!-- Slider Row -->
             <div class="row">
                 <div class="col-md-12 sliderDiv">
-                    <div class="whoWeAreSlider">
+                    <!-- <div class="whoWeAreSlider">
                         <div class="carousel slide" id="whoWeAreCarousel" data-ride="carousel" data-interval="2000" data-pause="hover">
                         <ol class="carousel-indicators">
                             <li data-target="#whoWeAreCarousel" data-slide-to="0" class="active"></li>
                             <li data-target="#whoWeAreCarousel" data-slide-to="1"></li>
                             <li data-target="#whoWeAreCarousel" data-slide-to="2"></li>
-                            <!-- <li data-target="#whoWeAreCarousel" data-slide-to="3"></li>
-                            <li data-target="#whoWeAreCarousel" data-slide-to="4"></li>
-                            <li data-target="#whoWeAreCarousel" data-slide-to="5"></li> -->
                         </ol>
                             <div class="carousel-inner">
                                 <div class="item active">
@@ -169,42 +166,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <!-- <div class="item">
-                                    <div class="col-md-4">
-                                        <a href="#">
-                                            <img src="assets/images/who/img1.png" class="img-responsive">
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="col-md-4">
-                                        
-                                        <a href="#">
-                                            <img src="assets/images/who/img2.png" class="img-responsive">
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="col-md-4">
-                                        <a href="#">
-                                            <img src="assets/images/who/img3.png" class="img-responsive">
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="col-md-4">
-                                        <a href="#">
-                                            <img src="assets/images/who/img1.png" class="img-responsive">
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="col-md-4">
-                                        <a href="#">
-                                            <img src="assets/images/who/img2.png" class="img-responsive">
-                                        </a>
-                                    </div>
-                                </div> -->
+                              
                             </div>
                             <a class="left carousel-control" href="#whoWeAreCarousel" data-slide="prev">
                                 <i class="glyphicon glyphicon-chevron-left"></i>
@@ -213,10 +175,64 @@
                                 <i class="glyphicon glyphicon-chevron-right"></i>
                             </a>
                         </div>
-                    </div>
+                    </div> -->
+                <!-- Slick Slide Who we are -->
+
+             <section class="Testimonialsregular slider">
+              
+              <div>
+                 <div class="sliderContent">
+                   <h3>Security</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                     <img src="assets/images/who/arrow.png" alt="Arrow" class="img-responsive">
+                </div>
+                 <a href="#">
+                  <img src="assets/images/who/img1.png" class="img-responsive">
+                 </a>
+              </div>
+
+              <div>
+                 <div class="sliderContent">
+                  <h3>Sustainability</h3>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                   <img src="assets/images/who/arrow.png" alt="Arrow" class="img-responsive">
+                 </div>
+                <a href="#">
+                  <img src="assets/images/who/img3.png" class="img-responsive">
+                 </a>
+              </div>
+
+              <div>
+                 <div class="sliderContent">
+                   <h3>Sustainability</h3>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <img src="assets/images/who/arrow.png" alt="Arrow" class="img-responsive">
+                </div>
+                 <a href="#">
+                  <img src="assets/images/who/img3.png" class="img-responsive">
+                 </a>
+              </div>
+
+
+              <div>
+                <div class="sliderContent">
+                  <h3>Sustainability</h3>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                   <img src="assets/images/who/arrow.png" alt="Arrow" class="img-responsive">
+                </div>
+                 <a href="#">
+                  <img src="assets/images/who/img3.png" class="img-responsive">
+                 </a>
+              </div>
+           
+            </section>
+            <!-- Slick Slider Who we are -->
                 </div>
             </div>
             <!-- Slider row ends -->
+
+
+
         </div>
         </div>
     </section>

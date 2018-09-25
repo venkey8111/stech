@@ -65,7 +65,7 @@
                             <div class="carousel-caption">
                                 <img src="assets/images/banner/shield.png" alt="Shield" class="img-responsive">
                                 <div class="captionText">
-                                    <h1>Designing
+                                    <h1>Designings
                                         <span>SMART</span>
                                     </h1>
                                     <h2>commercial spaces</h2>
